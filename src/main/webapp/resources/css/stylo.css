@@ -1,0 +1,104 @@
+body{
+    background-color: whitesmoke;
+}
+.formulario{
+    width: 50%;
+    margin: 60px auto;
+}
+.titulo h1{
+    margin-bottom: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.divForm{
+    margin-top: 10px;
+    width: 60%;
+    font-size: 1 rem;  
+}
+
+.divFormRadio{
+    font-size:1rem;
+    clear: both; 
+    font-family: Arial, sans-serif;    
+}
+.divFormRadio p{
+    font-weight: bold; 
+}  
+
+.divForm label{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+body form fieldset{
+    background-color: azure;
+}
+body form fieldset legend {
+    padding: 5px;
+    font-weight: bold;
+    font-size: larger;
+    font-family:ambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.caixa {
+    background: rgb(246, 248, 248); 
+    margin-bottom: 10px;
+    width: 250px;
+    border: 2px solid rgb(14, 13, 13);
+}
+.caixaSelect {
+    background: rgb(246, 248, 248); 
+    margin-bottom: 10px;
+    width: 100px;
+    border: 2px solid rgb(14, 13, 13); 
+}
+.caixa:hover{
+    background-color: lightcyan;
+}
+.caixaSelect :hover{
+    background-color: rgb(246, 248, 248); 
+}
+.divFormCheck{    
+    font-size:1rem;
+    clear: both; 
+    font-family: Arial, sans-serif;    
+}
+.divFormCheck p {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+.divFormTextArea label{        
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    float: left;
+    margin-top:10px;
+    margin-right: 10px;
+}
+
+.divFormTextArea textarea{
+    margin-top: 20px;
+    resize: none;   
+    width: 90%;
+    height: 150px;
+    border-color: rgba(0, 2, 2, 0.925);
+    background-color: rgb(246, 248, 248);        
+}
+.divFormBotao{   
+    margin: auto;
+    width: 60%;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 30%;
+    border-color: rgba(0, 2, 2, 0.925);
+    font-family: Arial, sans-serif;
+    font-size: larger;
+}
+.divFormBotaoEnviar{
+    margin-top: 20px;
+    margin-right: 5px;
+    float: left;
+}
+.divFormBotaoLimpar{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+
